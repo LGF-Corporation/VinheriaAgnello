@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Mea+Culpa&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    background-color: rgba(62, 39, 35, 1);
+}
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Bodoni Moda';
+    
+}
+.menu a:hover{
+    color:#d4af37;
+    transition: 0.3s;
+}
