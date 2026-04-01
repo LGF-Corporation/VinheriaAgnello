@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../style.css">
+     
+</head>
+<body>
+
+    <h1>Contato</h1>
+
+    <form action="">
+        <fieldset>
+            <legend>Informe os seus dados</legend>
+            <h2>Cadastro pessoal</h2>
+            <p>* Indica um campo obrigatório. </p>
+
+            <h3>Informações de contato</h3>
+            <label for="nome_sobrenome">Nome e sobrenome: *</label>
+            <input type="text" name="nome_sobrenome" placeholder="Digite aqui..." required>
+
+            <br><br>
+        
+            <label for="email">e-mail *</label>
+            <input type="text" name="email" placeholder="Digite aqui..." required>
+
+            <br><br>
+
+            <label for="telefone-contato">Telefone/celular: *</label>
+            <input type="tel" name="telefone-contato" placeholder="(xx) xxxx-xxxx" required>
+
+
+            <h3>Informe o seu gênero: </h3>
+            <input type="radio" name="genero" value="masculino">
+            <label for="genero">Masculino</label><br>
+            <input type="radio" name="genero" value="feminino">
+                <label for="genero">Feminino</label><br>
+            <input type="radio" name="genero" value="outro">
+            <label for="genero">Outro</label><br>
+
+            
+            <h3>Deixe aqui a sua mensagem: </h3>
+            <textarea name="mensagem"> Digite uma mensagem...</textarea>
+            <br><br>
+            <button type="submit">
+                Enviar formulário
+            </button>
+
+            <button type="reset">
+                Limpar formulário
+            </button>
+
+
+        </fieldset>
+    </form>
+
+    <br><br>
+    <a href="../index.html" title="voltar para a pagina inicial"> Página inicial </a>
+</body>
+</html>
