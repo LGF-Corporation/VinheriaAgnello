@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas iguais */
+    gap: 20px; /* espaço entre os itens */
+    margin: 0 auto;
+    
+
+}
+
+.produto {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.produto img {
+    display: block;
+    margin: 0 auto; /* centraliza horizontalmente */
+
+}
+
+
+.bandeira {
+    position: relative; /* permite colocar em qualquer lugar dentro do .produto */
+    top: -90px;  /* distância do topo */
+    left: -80px; /* distância da esquerda */
+
+    width: 20px;
+    height: 20px;
+    border-radius: 70%;
+
+    border: 2px solid white;
+
+}
