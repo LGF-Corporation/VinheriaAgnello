@@ -9,7 +9,7 @@
     padding-top: 3%;
     margin-bottom: 3%;
     padding-left: 3%;
-    margin-left: 4%;
+    margin-left: 4%;   /*eu adcionei aqui esses margin pra tentar alinhas com o meu, mas qqr coisa tira e faz de utro jeito */
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 #harm h1 {
     padding-top: 3%;
     margin-left: 3%;
-    padding-bottom: 3%; 
+    padding-bottom: 3%;  /*acho que esse #harm h1 e o h2 tão interferindo */
 }
 
 #harm h2 {
@@ -71,7 +71,12 @@ td, th {
 
 th {
     background-color: #bfab8c;
+    font-size: 30px;
+    color: #662621;
 }
 td {
     background-color:#dcd1c2 ;
+    font-size: 25px;
+    color: #241413;
+    font-weight: 900;
 }
