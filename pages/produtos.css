@@ -4,10 +4,15 @@
     background-color: #C4B29A ;
 }
 
+#prods {
+    color: #662821 ;
+}
+
 .produtos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 50px;
+    column-gap: 1px;
     margin: 0 auto;  
 }
 
