@@ -38,10 +38,10 @@ body {
 }
 
 .logo-topo {
-    height: 70px; /* Diminuí a logo */
+    height: 70px; 
     position: absolute;
-    left: 20px; /* Fixa ela no canto esquerdo */
-    top: 10px;   /* Ajuste para ela "transbordar" levemente */
+    left: 20px; 
+    top: 10px;   
     filter: drop-shadow(0px 4px 5px rgba(0,0,0,0.5));
     z-index: 100;
 }
