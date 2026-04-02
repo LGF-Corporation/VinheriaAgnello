@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    
+    
+
+}
+
+body {
+    background-image: url('../imgs/barris.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(196, 178, 154, 0.9);
+  z-index: -1;
+  position: fixed;
+
+}
+
+#cont {
+    color: #662821 ;
+}
+
+
+fieldset {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+    border-width: 2px;
+    border-style: solid;     
+    border-color: #662821;    
+    border-radius: 8px;
+}
+
+fieldset legend {
+    color: #662821;
+}
+fieldset button {
+    color: #F8F3EB;
+    padding: 5px;
+    border-radius: 8px;
+    border-color: #662821;
+    background-color: #662621;
+}
+
+fieldset button:hover {
+    box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+    color: #ffca7b;
+}
+
+fieldset h2, h3, p, label, input, textarea {
+    background-color:#F8F3EB;
+}
+
+fieldset h2, h3, p, label {
+    color: #662821;
+}
+
+
+fieldset textarea, input {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(102, 38, 33, 0.15);
+
+}
+
+fieldset textarea:hover {
+    box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+}
+
+fieldset input:hover {
+    box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+}
+
+.cabecalho {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #F8F3EB;
+    border-radius: 8px;
+    background-color:#F8F3EB;
+    margin-bottom: 10px;
+
+}
+
+
+.Info-de-contato {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #F8F3EB;
+    border-radius: 8px;
+    background-color:#F8F3EB;
+    margin-bottom: 10px;
+    font-family: 'Bodoni Moda';
+    font-weight: 800;
+}
+
+.genero {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #F8F3EB;
+    border-radius: 8px;
+    background-color: #F8F3EB;
+    margin-bottom: 10px;
+    font-family: 'Bodoni Moda';
+    font-weight: 800;    
+}
+
+.sua-msgm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #F8F3EB;
+    border-radius: 8px;
+    background-color: #F8F3EB;
+    margin-bottom: 20px;
+    font-family: 'Bodoni Moda';
+    font-weight: 800;
+}
+
+textarea {
+    width: 600px;
+    height: 80px;
+    
+    
+}

@@ -4,59 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="contato.css">
      
 </head>
 <body>
-
-    <h1>Contato</h1>
-
+    <h1 id="cont">Contato</h1>
+    <br><br>
     <form action="">
         <fieldset>
             <legend>Informe os seus dados</legend>
-            <h2>Cadastro pessoal</h2>
-            <p>* Indica um campo obrigatório. </p>
 
-            <h3>Informações de contato</h3>
-            <label for="nome_sobrenome">Nome e sobrenome: *</label>
-            <input type="text" name="nome_sobrenome" placeholder="Digite aqui..." required>
+            <div class="cabecalho">
+                <h2>Cadastro pessoal</h2>
+                <br><br>
+                <p>* Indica um campo obrigatório. </p>
+            </div>
 
-            <br><br>
-        
-            <label for="email">e-mail *</label>
-            <input type="text" name="email" placeholder="Digite aqui..." required>
-
-            <br><br>
-
-            <label for="telefone-contato">Telefone/celular: *</label>
-            <input type="tel" name="telefone-contato" placeholder="(xx) xxxx-xxxx" required>
-
-
-            <h3>Informe o seu gênero: </h3>
-            <input type="radio" name="genero" value="masculino">
-            <label for="genero">Masculino</label><br>
-            <input type="radio" name="genero" value="feminino">
-                <label for="genero">Feminino</label><br>
-            <input type="radio" name="genero" value="outro">
-            <label for="genero">Outro</label><br>
-
+            <div class="Info-de-contato">
+                <h3>Informações de contato</h3>
+                <br><br>
+                <label for="nome_sobrenome">Nome e sobrenome: *</label>
+                <input type="text" name="nome_sobrenome" placeholder="Digite aqui..." required>
             
-            <h3>Deixe aqui a sua mensagem: </h3>
-            <textarea name="mensagem"> Digite uma mensagem...</textarea>
-            <br><br>
-            <button type="submit">
-                Enviar formulário
-            </button>
+                <br><br>
+            
+                <label for="email">e-mail *</label>
+                <input type="text" name="email" placeholder="Digite aqui..." required>
 
-            <button type="reset">
-                Limpar formulário
-            </button>
+                <br><br>
 
+                <label for="telefone-contato">Telefone/celular: *</label>
+                <input type="tel" name="telefone-contato" placeholder="(xx) xxxx-xxxx" required>
+            </div>
+
+            <div class="genero">
+                <h3>Informe o seu gênero: </h3>
+                <br><br>
+                <input type="radio" name="genero" value="masculino">
+                <label for="genero">Masculino</label><br>
+                <input type="radio" name="genero" value="feminino">
+                <label for="genero">Feminino</label><br>
+                <input type="radio" name="genero" value="outro">
+                <label for="genero">Outro</label><br>
+            </div>
+
+            <div class="sua-msgm">
+                <h3>Deixe aqui a sua mensagem: </h3>
+                <textarea name="mensagem"> </textarea>
+                <br><br>
+            </div>
+            <button type="submit">Enviar formulário</button>
+            <button type="reset">Limpar formulário</button>
+            
 
         </fieldset>
     </form>
 
-    <br><br>
-    <a href="../index.html" title="voltar para a pagina inicial"> Página inicial </a>
+
 </body>
 </html>
