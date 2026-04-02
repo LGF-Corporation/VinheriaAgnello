@@ -20,8 +20,8 @@
     Contato: página dedicada a um formulário para o cliente informar os dados e ser, posteriormente, contatado pela vinheria.
 
 - Nome dos integrantes:
-    Laura de Siqueira Silva
-    Giovanna Nunes Leme
+    Laura de Siqueira Silva,
+    Giovanna Nunes Leme e 
     Flavia Camerim de Sousa
 
 - Link para o site publicado no GitHub Pages:
