@@ -121,6 +121,10 @@
     font-family: 'Cormorant Garamond', serif;
 }
 
+.imagem-legado{
+    margin-bottom: 2%;
+}
+
 .footer-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
