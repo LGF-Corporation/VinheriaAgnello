@@ -1,7 +1,7 @@
-# Vinheria Agnello - CP1 - Front-end Design
-Este projeto consiste na criação de um e-commerce de uma Vinheria on-line, visando a aplicação de aprendizado teórico na prática.
+# Vinheria Agnello - CP1 - Front-end Design e Web Development
+Este projeto consiste na criação de um e-commerce de uma Vinheria on-line, visando a aplicação de aprendizado teórico na prática. E também, na implementação de um sistema básico para cadastro e análise de vinhos artesanais da Vinheria Agnello. 
 
-# Requisitos obrigatórios para o projeto:
+# Requisitos obrigatórios para o projeto de Front-end Design:
 
 - 5 Arquivos HTML criados (index.html, products.html, history.html, team.html e contact.html);
 - index.html com navegação para as demais páginas;
@@ -18,6 +18,14 @@ Este projeto consiste na criação de um e-commerce de uma Vinheria on-line, vis
 - Links internos e externos funcionando;
 - Cada integrante com pelo menos 2 commits;
 - Projeto publicado no GitHub Pages;
+
+# Requisitos obrigatórios para o projeto de Web Development:
+
+- As informações devem ser solicitadas ao usuário usando prompt();
+- Após o cadastro, exiba um alert() informando: "Cadastro realizado! Veja os detalhes no console.";
+- Sempre que alguma informação for exibida no console, deve haver um alert() antes avisando o usuário, como por exemplo: "A seguir, veja os detalhes do vinho no console.";
+- Informações obrigatórias a serem coletadas: - Nome do vinho/ Tipo (Tinto, Branco, Rosé)/ Safra (ano)/ Quantidade em estoque;
+- Exiba todas as informações no console.log() de forma clara e organizada;
 
 ## Sobre o projeto:
 
