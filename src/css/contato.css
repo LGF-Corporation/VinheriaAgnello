@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('../imgs/barris.jpg');
+    background-image: url('../../src/assets/imgs/barris.jpg');
     background-size: cover;
     position: relative;
 }
