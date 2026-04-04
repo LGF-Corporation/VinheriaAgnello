@@ -5,52 +5,27 @@
 // console.log(); 
 
 
-
-
 // Mensagem inicial: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 var nome = prompt("Seja bem-vindo(a)! Para uma experiência personalizada em nosso site, realizamos um breve cadastro. Por favor insira o seu nome: ");
-
 //Alguem escreva um alert com a mensagem: Cadastro realizado! Veja os detalhes no console. E commita pra registrar o feito.
+    alert("Olá, " + nome"! Cadastro realizado com sucesso!");
+//verificar este codigo
 
-// Lógica para mostrar estoques dos vinhos: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-var vinho = prompt("Qual vinho você procura? (Digite o nome do vinho)");
-
-var tipo = prompt("Qual o tipo do vinho. Tinto, rosé ou branco?"); 
-
-var safra = prompt("Qual seria a safra desejada? (2024, 2025 ou 2026)"); 
-
-
-    // Vinho pauliteiros
-
-if ((vinho == "Pauliteiros" ) || (vinho == "pauliteiros" ) && (tipo == "tinto") && (safra == "2024")) {
-    alert("Há 7 unidades deste vinho");
-
-} else if ((vinho == "Pauliteiros" ) || (vinho == "pauliteiros" ) && (tipo == "tinto") && (safra == "2025")) {
-    alert("Há 15 unidades deste vinho");
-
-    // Vinho Casillero del Diablo
-
-} else if ((vinho == "casillero del diablo" ) || (vinho == "Casillero del Diablo" ) && (tipo == "tinto") && (safra == "2024")) {
-    alert("Há 32 unidades deste vinho");
-
-} else if ((vinho == "casillero del diablo" ) || (vinho == "Casillero del Diablo" ) && (tipo == "tinto") && (safra == "2025")) {
-    alert("Há 20 unidades deste vinho");
-
-} else if ((vinho == "casillero del diablo" ) || (vinho == "Casillero del Diablo" ) && (tipo == "rosé") && (safra == "2025")) {
-    alert("Há 15 unidades deste vinho");
     
-} else if ((vinho == "casillero del diablo" ) || (vinho == "Casillero del Diablo" ) && (tipo == "rosé") && (safra == "2024")) {
-    alert("Há 21 unidades deste vinho");
+// Lógica usada -> separar por tipos de vinhos, e dentre os tipos, ditar as opçoes disponiveis (Flávia)
 
-} else if ((vinho == "casillero del diablo" ) || (vinho == "Casillero del Diablo" ) && (tipo == "branco") && (safra == "2025")) {
-    alert("Há 34 unidades deste vinho");
+var vinho = prompt("Dentre as opções de vinho Tinto, Branco ou Rose, qual é o tipo de vinho que você está procurando: ");
 
-} else if ((vinho == "casillero del diablo" ) || (vinho == "Casillero del Diablo" ) && (tipo == "branco") && (safra == "2024")) {
-    var unid = 32; //<-- Isso aqui foi um teste, mas não tá rolando!
-    alert("Há 32 unidades deste vinho");
-    
+if ((vinho == "Tinto") || (vinho == "tinto")) {
+    alert("Há x unidades deste vinho");
+}
+  else if ((vinho == "Branco" ) || (vinho == "branco" )) {
+    alert("Há y unidades deste vinho");
+
+} else if ((vinho == "Rose" ) || (vinho == "rose" ) || (vinho== "rosé") || (vinho=="Rosé")) {
+    alert("Há z unidades deste vinho");
+
 } else {
     alert("Desculpe, não há unidades disponíveis deste vinho. Veja outras opções disponíveis em nossa página de produtos ou verifique se digitou o nome corretamente.");
 }
