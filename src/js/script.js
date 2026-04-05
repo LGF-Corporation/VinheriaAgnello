@@ -96,18 +96,24 @@ console.log("Pauliteiros - Safra 2023 (tinto): " + paulit2023  );
     
 // Lógica usada -> separar por tipos de vinhos, e dentre os tipos, ditar as opçoes disponiveis (Flávia) 
 
-var tipo = prompt("Dentre as opções de vinhos: Tinto, Branco ou Rosé, qual é o tipo de vinho que você está procurando? ");
+// Captura a entrada, transforma em minúsculo e remove acentos
+var tipo = prompt("Dentre as opções de vinhos: Tinto, Branco ou Rosé, qual é o tipo de vinho que você está procurando?")
+           .toLowerCase()                       // Transforma em minúsculas
+           .normalize("NFD")                    // Decompõe caracteres acentuados
+           .replace(/[\u0300-\u036f]/g, "");    // Remove os acentos
 
-if ((tipo == "Tinto") || (tipo == "tinto")) {
-    alert("Há " + totalTinto + " unidades deste tipo de vinho. Consulte o Console para verificar as marcas!" );
-}
-  else if ((tipo == "Branco" ) || (tipo == "branco" )) {
-    alert("Há X  unidades deste tipo de vinho. Consulte o Console para verificar as marcas!" );
-
-} else if ((tipo == "Rose" ) || (tipo == "rose" ) || (tipo== "rosé") || (tipo=="Rosé")) {
-    alert("Há X  unidades deste tipo de vinho. Consulte o Console para verificar as marcas!" );
-
-} else {
+// Agora as verificações ficam muito mais simples:
+if (tipo === "tinto") {
+    alert("Há " + totalTinto + " unidades deste tipo de vinho. Consulte o Console para verificar as marcas!");
+} 
+else if (tipo === "branco") {
+    alert("Há X unidades deste tipo de vinho. Consulte o Console para verificar as marcas!");
+} 
+else if (tipo === "rose") {
+    // Graças ao normalize/replace, "Rosé", "rosé", "Rose" e "rose" viram todos "rose"
+    alert("Há X unidades deste tipo de vinho. Consulte o Console para verificar as marcas!");
+} 
+else {
     alert("Desculpe, não há unidades disponíveis deste tipo de vinho. Veja outras opções disponíveis no Console ou verifique se digitou o nome corretamente.");
 }
 
