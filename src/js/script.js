@@ -1,13 +1,7 @@
 // Temos que usar essas tags aqui:
-
-
-
 // prompt();
-
 // alert();
-
 // console.log();
-
 // Mensagem inicial: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 var nome = prompt("Seja bem-vindo(a)! Para uma experiência personalizada em nosso site, realizamos um breve cadastro. Por favor insira o seu nome: ");
@@ -103,10 +97,8 @@ var tipo = prompt("Dentre as opções de vinhos: Tinto, Branco ou Rosé, qual é
            .replace(/[\u0300-\u036f]/g, "");    
 
 if (tipo === "tinto") {
-    alert("Há " + totalTinto + " unidades deste tipo de vinho. Veja os detalhes detalhados no Console!");
-    
-    if (tipo === "tinto") {
     alert("Há " + totalTinto + " unidades deste tipo de vinho. Veja os detalhes no Console!");
+    
     console.clear(); 
     console.log("--- RELATÓRIO DETALHADO: VINHOS TINTOS ---");
     console.log("Total Geral: " + totalTinto);
@@ -117,15 +109,24 @@ if (tipo === "tinto") {
     console.log("Safra 2023: " + totTintSaf2023);
     console.log("------------------------------------------");
     console.log("DETALHES POR MARCA:");
-    console.log("Casillero del Diablo (tinto): " + casiDDTinto);
-    console.log("Pauliteiros (tinto): " + paulitTinto);
-    console.log("Casal Garcia (tinto): " + casalGTinto);
-    console.log("Garibaldi (tinto): " + garibTinto);
-    }}// <--- ESSA CHAVE ESTAVA FALTANDO!
+    
+    console.log("Casillero del Diablo - Safra 2024: " + casiDD2024);
+    console.log("Casillero del Diablo - Safra 2023: " + casiDD2023);
+    
+    console.log("Pauliteiros - Safra 2025: " + paulit2025);
+    console.log("Pauliteiros - Safra 2024: " + paulit2024);
+    console.log("Pauliteiros - Safra 2023: " + paulit2023);
+    
+    console.log("Casal Garcia - Safra 2023: " + casalG2023);
+    
+    console.log("Garibaldi - Safra 2025: " + gariB2025);
+    console.log("Garibaldi - Safra 2024: " + gariB2024);
+    console.log("Garibaldi - Safra 2023: " + gariB2023);
+}
 
 
 else if (tipo === "branco") {
-    alert("Há " + totalBranco + " unidades deste tipo de vinho. Veja os detalhes detalhados no Console!");
+    alert("Há " + totalBranco + " unidades deste tipo de vinho. Veja os detalhes no Console!");
     
     console.clear();
     console.log("--- RELATÓRIO DETALHADO: VINHOS BRANCOS ---");
@@ -143,7 +144,7 @@ else if (tipo === "branco") {
 } 
 
 else if (tipo === "rose") {
-    alert("Há " + totalRose + " unidades deste tipo de vinho. Veja os detalhes detalhados no Console!");
+    alert("Há " + totalRose + " unidades deste tipo de vinho. Veja os detalhes no Console!");
     
     console.clear();
     console.log("--- RELATÓRIO DETALHADO: VINHOS ROSÉS ---");
