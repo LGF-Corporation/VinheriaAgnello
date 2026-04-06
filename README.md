@@ -83,7 +83,7 @@ página dedicada a um formulário para o cliente informar os dados e ser, poster
 1. Ao abrir o site, o sistema solicitará seu nome para o cadastro inicial.
 2. Siga as instruções dos alertas na tela.
 3. Quando solicitado o tipo de vinho, tente digitar de formas diferentes (ex: "TINTO" ou "rosé").
-4. *Importante:* Pressione F12 (ou clique com o botão direito > Inspecionar > Console) para visualizar a tabela detalhada de marcas e safras que o sistema gera automaticamente.
+4. *Importante:* Clique com o botão direito > Inspecionar > Console,  para visualizar a tabela detalhada de marcas e safras que o sistema gera automaticamente.
 
 ## Integrantes do projeto:
 - Laura de Siqueira Silva: [Git Hub](https://github.com/LauradSiqueira)

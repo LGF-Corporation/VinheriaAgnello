@@ -1,6 +1,14 @@
-/// ==============================================================================================
-// PROJETO: VINHERIA AGNELLO - CP1
-// ==============================================================================================
+// Temos que usar essas tags aqui:
+
+
+
+// prompt();
+
+// alert();
+
+// console.log();
+
+
 
 // Mensagem inicial: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -45,18 +53,18 @@ var totTintSaf2024 = ( casiDD2024 + paulit2024 + casalG2024 + gariB2024);
 var totTintSaf2023 = (casiDD2023 + paulit2023 + casalG2023 + gariB2023); 
 
 // Vinhos brancos ----------------------------------------------------------------------------------
-var casiDDBranco = 3;  // Engloba os dois modelos da Casillero das fotos
-var casalGBranco = 8;  // Vinho Verde
+var casiDDBranco = 3;  
+var casalGBranco = 8;  
 
-// soma dos tipos de brancos aqui
+
 var totalBranco = (casiDDBranco + casalGBranco);
 
 // Safras dos vinhos brancos separados por marcas --------------------------------------------------
-// Para o Casillero Branco (Total 3)
+
 var casiDDBran2025 = 1;
 var casiDDBran2024 = 2;
 
-// Para o Casal Garcia Branco/Verde (Total 8)
+
 var casalGBran2025 = 3;
 var casalGBran2024 = 5;
 
@@ -69,7 +77,7 @@ var totBranSaf2024 = (casiDDBran2024 + casalGBran2024);
 var casiDDRose = 4;
 var casalGRose = 5;
 
-// soma dos tipos de rosés aqui
+
 var totalRose = (casiDDRose + casalGRose);
 
 // Safras dos vinhos rosés separados por marcas --------------------------------------------------
@@ -90,7 +98,7 @@ var totRoseSaf2023 = (casiDDRose2023 + casalGRose2023);
 
 // Lógica de busca interativa >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-// Lógica de busca interativa modificada
+
 var tipo = prompt("Dentre as opções de vinhos: Tinto, Branco ou Rosé, qual é o tipo de vinho que você está procurando?")
            .toLowerCase()                       
            .normalize("NFD")                    
@@ -99,7 +107,7 @@ var tipo = prompt("Dentre as opções de vinhos: Tinto, Branco ou Rosé, qual é
 if (tipo === "tinto") {
     alert("Há " + totalTinto + " unidades deste tipo de vinho. Veja os detalhes detalhados no Console!");
     
-    console.clear(); // Limpa o console para focar só no resultado atual
+    console.clear(); 
     console.log("--- RELATÓRIO DETALHADO: VINHOS TINTOS ---");
     console.log("Total Geral: " + totalTinto);
     console.log("------------------------------------------");
