@@ -8,8 +8,6 @@
 
 // console.log();
 
-
-
 // Mensagem inicial: >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 var nome = prompt("Seja bem-vindo(a)! Para uma experiência personalizada em nosso site, realizamos um breve cadastro. Por favor insira o seu nome: ");
@@ -107,6 +105,8 @@ var tipo = prompt("Dentre as opções de vinhos: Tinto, Branco ou Rosé, qual é
 if (tipo === "tinto") {
     alert("Há " + totalTinto + " unidades deste tipo de vinho. Veja os detalhes detalhados no Console!");
     
+    if (tipo === "tinto") {
+    alert("Há " + totalTinto + " unidades deste tipo de vinho. Veja os detalhes no Console!");
     console.clear(); 
     console.log("--- RELATÓRIO DETALHADO: VINHOS TINTOS ---");
     console.log("Total Geral: " + totalTinto);
@@ -117,13 +117,12 @@ if (tipo === "tinto") {
     console.log("Safra 2023: " + totTintSaf2023);
     console.log("------------------------------------------");
     console.log("DETALHES POR MARCA:");
-    console.log("Casillero del Diablo - Safra 2025: " + casiDD2025);
-    console.log("Casillero del Diablo - Safra 2024: " + casiDD2024);
-    console.log("Casillero del Diablo - Safra 2023: " + casiDD2023);
-    console.log("Pauliteiros - Safra 2025: " + paulit2025);
-    console.log("Pauliteiros - Safra 2024: " + paulit2024);
-    console.log("Pauliteiros - Safra 2023: " + paulit2023);
-} 
+    console.log("Casillero del Diablo (tinto): " + casiDDTinto);
+    console.log("Pauliteiros (tinto): " + paulitTinto);
+    console.log("Casal Garcia (tinto): " + casalGTinto);
+    console.log("Garibaldi (tinto): " + garibTinto);
+    }}// <--- ESSA CHAVE ESTAVA FALTANDO!
+
 
 else if (tipo === "branco") {
     alert("Há " + totalBranco + " unidades deste tipo de vinho. Veja os detalhes detalhados no Console!");

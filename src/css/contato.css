@@ -68,7 +68,7 @@ fieldset h2, h3, p, label {
 fieldset textarea, input {
     border-width: 1px;
     border-style: solid;
-    border-color: #f8f3eb;
+    border-color: rgba(102, 38, 33, 0.15);
 }
 
 
@@ -80,7 +80,12 @@ fieldset textarea:hover {
 fieldset input:hover {
     box-shadow: 0 6px 6px rgba(0,0,0,0.3);
 }
+fieldset input:focus, 
+fieldset textarea:focus {
+    outline: none; 
+    border-color:  #C9A96E ; 
 
+}
 .cabecalho {
     max-width: 600px;
     margin: 0 auto;
