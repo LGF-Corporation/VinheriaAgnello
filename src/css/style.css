@@ -24,11 +24,6 @@ body {
     font-family: 'Bodoni Moda', serif;
 }
 
-.menu a:hover {
-    color: #b38b4d;
-    transition: 0.3s;
-}
-
 .logo-topo {
     height: 70px;
     position: absolute;
@@ -75,11 +70,6 @@ body {
     border-left: 5px solid #b38b4d;
 }
 
-@keyframes carrossel-animado {
-    0%, 45% { transform: translateX(0); }
-    50%, 95% { transform: translateX(-50%); }
-    100% { transform: translateX(0); }
-}
 
 .boas-vindas {
     text-align: center;
@@ -263,11 +253,6 @@ body {
     text-decoration: none;
     transition: 0.3s;
     font-size: 0.95rem;
-}
-
-.footer-section a:hover {
-    color: #b38b4d;
-    padding-left: 5px; 
 }
 
 .footer-text {

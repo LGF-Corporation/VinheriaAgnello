@@ -1,0 +1,113 @@
+/* [ Efeitos index (homepage) ] ========================================================== */
+
+/* ---------- Pseudo-classes: ---------------------------------------------------------- */
+.menu a:hover {
+    color: #b38b4d;
+    transition: 0.3s;
+}
+
+.footer-section a:hover {
+    color: #b38b4d;
+    padding-left: 5px; 
+}
+
+/* ---------- Animações: ------------------------------------------------------------- */
+@keyframes carrossel-animado {
+    0%, 45% { transform: translateX(0); }
+    50%, 95% { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+}
+
+/* [ Efeitos página Contato ] =============================================================*/
+
+/* ---------- Pseudo-elementos: -------------------------------------------------------- */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(196, 178, 154, 0.9);
+  z-index: -1;
+  position: fixed;
+
+}
+
+/* ---------- Pseudo-classes: ---------------------------------------------------------- */
+fieldset button:hover {
+    box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+    color: #ffca7b;
+}
+
+fieldset textarea:hover {
+    box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+}
+
+fieldset input:hover {
+    box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+}
+
+.menu a:hover {
+    color: #b38b4d;
+    transition: 0.3s;
+}
+
+.footer-section a:hover {
+    color: #b38b4d;
+    padding-left: 5px; 
+}
+
+fieldset input:focus, 
+fieldset textarea:focus {
+    outline: none; 
+    border-color:  #C9A96E ; 
+
+}
+/* [Efeitos página de Harmonização ] ===================================================== */
+
+/* ---------- Pseudo-classes: ---------------------------------------------------------- */
+.menu a:hover {
+    color: #b38b4d;
+    transition: 0.3s;
+}
+
+.footer-section a:hover {
+    color: #b38b4d;
+    padding-left: 5px; 
+}
+
+
+/* [ Efeitos página de Produtos ] ======================================================== */
+
+/* ---------- Pseudo-classes: ---------------------------------------------------------- */
+.menu a:hover{
+    color:#d4af37;
+    transition: 0.3s;
+}
+
+.produto:hover {
+    box-shadow: 0 10px 16px rgba(0,0,0,0.6);
+    
+}
+
+.produto button:hover {
+    box-shadow: 0 8px 8px rgba(0,0,0,0.3);
+    color: #ffca7b;
+    
+}
+
+.footer-section a:hover {
+    color: #b38b4d;
+    padding-left: 5px; 
+}
+
+/* [ Efeitos página Sobre Nós ] ========================================================*/
+
+/* ---------- Pseudo-classes: ---------------------------------------------------------- */
+.menu a:hover{
+    color:#d4af37;
+    transition: 0.3s;
+}
+
+.footer-section a:hover {
+    color: #b38b4d;
+    padding-left: 5px; 
+}

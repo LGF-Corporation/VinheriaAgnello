@@ -32,10 +32,6 @@ body {
     font-family: 'Bodoni Moda';
     
 }
-.menu a:hover{
-    color:#d4af37;
-    transition: 0.3s;
-}
 
 .logo-topo {
     height: 70px; 
@@ -52,17 +48,6 @@ body {
     gap: 50px;
     column-gap: 1px;
     margin: 0 auto;  
-}
-
-.produto:hover {
-    box-shadow: 0 10px 16px rgba(0,0,0,0.6);
-    
-}
-
-.produto button:hover {
-    box-shadow: 0 8px 8px rgba(0,0,0,0.3);
-    color: #ffca7b;
-    
 }
 
 .produto p {
@@ -162,11 +147,6 @@ body {
     text-decoration: none;
     transition: 0.3s;
     font-size: 0.95rem;
-}
-
-.footer-section a:hover {
-    color: #b38b4d;
-    padding-left: 5px; 
 }
 
 .footer-text {
