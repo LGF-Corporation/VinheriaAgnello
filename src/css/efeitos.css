@@ -31,15 +31,16 @@ body::before {
 
 }
 
-/* ---------- Transformações: ---------------------------------------------------------- */
-fieldset button:hover {
-    transform: scale(1.02, 1.02);
+*::selection {
+    background-color: #ffca7b;
+    
 }
-
 /* ---------- Pseudo-classes: ---------------------------------------------------------- */
 fieldset button:hover {
     box-shadow: 0 6px 6px rgba(0,0,0,0.3);
     color: #ffca7b;
+    cursor: pointer;
+    transform: scale(1.02, 1.02);      /*<-- Transformação */
 }
 
 fieldset textarea:hover {
@@ -67,17 +68,22 @@ fieldset textarea:focus {
 
 }
 
-.Info-de-contato input:required {
+.Info-de-contato input:user-invalid {
     border: 2px solid rgb(198, 23, 23);
 }
 
-.Info-de-contato input:invalid::placeholder {
+ .Info-de-contato input:user-invalid::placeholder {    /*pseudo-classe + pseudo-elemento */
   color: rgb(198, 23, 23);
+} 
+
+
+input[type="radio"]:hover {
+  box-shadow: none;
+  cursor: pointer;
 }
 
-*::selection {
-    background-color: #ffca7b;
-    
+input[type="radio"]:checked {
+  accent-color: #662621;
 }
 /* [Efeitos página de Harmonização ] ===================================================== */
 
@@ -106,9 +112,16 @@ fieldset textarea:focus {
     
 }
 
+.produto h4:hover {
+    background-color:#F8F3EB;
+    color:#b38b4d;
+    cursor: pointer;
+}
+
 .produto button:hover {
     box-shadow: 0 8px 8px rgba(0,0,0,0.3);
     color: #ffca7b;
+    cursor: pointer;
     
 }
 
