@@ -102,7 +102,7 @@ input[type="radio"]:checked {
 
 /* ---------- Transformações: ---------------------------------------------------------- */
 
-td img {git add src/css/efeitos.css
+td img {
 
     transition: transform 0.4s ease;
 }
@@ -173,4 +173,47 @@ button:hover {
 .footer-section a:hover {
     color: #b38b4d;
     padding-left: 5px; 
+}
+
+main p:nth-child(even) {
+    color: #4a4a4a; /* Um tom de cinza diferente para destacar */
+}
+
+/* ---------- Pseudo-elementos: -------------------------------------------------------- */
+
+h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #b38b4d;
+    margin-top: 10px;
+}
+
+/* ---------- Transformações: ---------------------------------------------------------- */
+
+main img {
+    transition: transform 0.5s ease; /* Transição suave */
+}
+
+main img:hover {
+    transform: scale(1.05); /* Transformação: aumenta 5% */
+    cursor: pointer;
+}
+
+/* ---------- Animações: ------------------------------------------------------------- */
+
+@keyframes subirConteudo {
+    from { 
+        opacity: 0; 
+        transform: translateY(20px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+main section {
+    animation: subirConteudo 1s ease-out forwards;
 }
