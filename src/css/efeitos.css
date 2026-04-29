@@ -88,15 +88,23 @@ input[type="radio"]:checked {
 
 /* ---------- Transformações: ---------------------------------------------------------- */
 
-.bloco-esquerda:hover{
-    transform: scale(1.05); /* Transformação: aumenta 5% */
+.bloco-esquerda:hover , .bloco-direita:hover{
+    transform: scale(1.05); 
     cursor: pointer;
-    transition: transform 0.5s ease; /* Transição suave */
+    transition: transform 0.5s ease; 
 }
-.bloco-direita:hover{
-    transform: scale(1.05); /* Transformação: aumenta 5% */
-    cursor: pointer;
-    transition: transform 0.5s ease; /* Transição suave */
+.footer-section a {
+    animation: pulsoVinho 3s infinite ease-in-out;
+}
+@keyframes pulsoVinho {
+    0%, 100% {
+        color: #b38b4d; 
+        filter: drop-shadow(0 0 0 rgba(102, 38, 33, 0)); 
+    }
+    50% {
+        color: #b1524b; 
+        filter: drop-shadow(0 0 8px rgba(163, 73, 67, 0.6)); 
+    }
 }
 
 
