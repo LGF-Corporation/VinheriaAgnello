@@ -25,7 +25,7 @@ body::before {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(196, 178, 154, 0.9);
+  background-color: rgba(196, 178, 154, 0.678);
   z-index: -1;
   position: fixed;
 
@@ -84,6 +84,19 @@ input[type="radio"]:hover {
 
 input[type="radio"]:checked {
   accent-color: #662621;
+}
+
+/* ---------- Transformações: ---------------------------------------------------------- */
+
+.bloco-esquerda:hover{
+    transform: scale(1.05); /* Transformação: aumenta 5% */
+    cursor: pointer;
+    transition: transform 0.5s ease; /* Transição suave */
+}
+.bloco-direita:hover{
+    transform: scale(1.05); /* Transformação: aumenta 5% */
+    cursor: pointer;
+    transition: transform 0.5s ease; /* Transição suave */
 }
 
 
