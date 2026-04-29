@@ -78,6 +78,34 @@ Apresenta os donos da Vinheria e um pouco sobre sua história.
 #### contato.html (Contato)
 página dedicada a um formulário para o cliente informar os dados e ser, posteriormente, contatado pela vinheria.
 
+#### Efeitos Visuais
+Nesta seção, detalhamos as implementações de CSS avançado aplicadas para melhorar a experiência do usuário e a estética do projeto Vinheria Agnello.
+
+### 1. Pseudo-classes
+Utilizadas para criar interatividade baseada no estado dos elementos:
+* **`:hover`**: Aplicado em links de menu, botões de formulário e cards de produtos para fornecer feedback visual imediato com mudanças de cor e transições.
+* **`:focus`**: Implementado nos campos de formulário (`input` e `textarea`) para destacar o campo ativo com a cor dourada `#C9A96E`.
+* **`:checked`**: Personaliza a cor dos botões de rádio para manter a identidade visual da marca.
+* **`:user-invalid`**: Utilizado para validação em tempo real, destacando erros de preenchimento em vermelho.
+* **`:nth-child(even)`**: Aplicado na página "Sobre Nós" para diferenciar parágrafos pares e melhorar a leitura do texto.
+
+### 2. Pseudo-elementos
+Utilizados para adicionar refinamentos visuais sem poluir o HTML:
+* **`::before`**: Aplicado ao `body` para criar uma camada de fundo semitransparente que melhora o contraste.
+* **`::after`**: Utilizado em títulos `h2` para gerar uma linha decorativa abaixo do texto.
+* **`::selection`**: Customiza a cor de destaque quando o usuário seleciona um texto no site.
+* **`::first-letter`**: Implementado com a fonte clássica *Pinyon Script* para criar uma capitular elegante no início de parágrafos.
+* **`::placeholder`**: Personaliza a cor do texto de exemplo quando os campos de entrada estão inválidos.
+
+### 3. Animações e Transformações
+Criação de movimento e dinamismo através de `@keyframes` e propriedades de transformação:
+* **`@keyframes subirConteudo`**: Animação de *fade-in* e deslocamento vertical que faz o conteúdo surgir suavemente ao carregar a página.
+* **`@keyframes carrossel-animado`**: Gerencia o movimento automático das imagens no banner principal.
+* **`@keyframes pulsoVinho`**: Aplicado aos links do rodapé, criando um efeito de brilho pulsante sutil.
+* **`transform: scale()`**: Utilizado em imagens e blocos de conteúdo para criar um efeito de zoom suave ao passar o mouse.
+* **`transform: rotate()`**: Aplicado em botões e imagens para criar leves inclinações interativas.
+* **`transition`**: Todas as mudanças de estado possuem transições suaves entre 0.2s e 0.5s para evitar saltos bruscos de estilo.
+
 ### Como Testar o Sistema de Vinhos:
 
 1. Ao abrir o site, o sistema solicitará seu nome para o cadastro inicial.
