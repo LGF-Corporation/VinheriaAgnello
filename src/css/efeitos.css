@@ -85,6 +85,8 @@ input[type="radio"]:hover {
 input[type="radio"]:checked {
   accent-color: #662621;
 }
+
+
 /* [Efeitos página de Harmonização ] ===================================================== */
 
 /* ---------- Pseudo-classes: ---------------------------------------------------------- */
@@ -96,6 +98,23 @@ input[type="radio"]:checked {
 .footer-section a:hover {
     color: #b38b4d;
     padding-left: 5px; 
+}
+
+/* ---------- Transformações: ---------------------------------------------------------- */
+
+td img {git add src/css/efeitos.css
+
+    transition: transform 0.4s ease;
+}
+
+td img:hover {
+    transform: scale(1.1) rotate(5deg); 
+    cursor: pointer;
+}
+
+button:hover {
+    transform: rotate(-2deg); 
+    transition: 0.2s;
 }
 
 
