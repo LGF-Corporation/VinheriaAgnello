@@ -43,6 +43,7 @@ bash
 │   │   │   │   ├── footer.css
 │   │   │   │   └── header.css
 │   │   │   ├── contact.css
+│   │   │   │── efeitos.css
 │   │   │   ├── main.css
 │   │   │   ├── products.css
 │   │   │   ├── style.css
